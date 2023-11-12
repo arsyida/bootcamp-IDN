@@ -1,0 +1,52 @@
+* {
+    margin: 10px;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.foto {
+    width: 300px;
+    height: 300px;
+    border-width: 20px;
+    border-style: solid;
+    border-color: aquamarine;
+    border-radius: 100%;
+}
+
+.nama {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+main {
+    text-align: center;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.email {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+button {
+    padding: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
